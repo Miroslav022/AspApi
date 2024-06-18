@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "skw5Ly0WG4f5+vEFGtQXvOxwoQwBUwkE+EV0Kq8pJQM=",
+  "Source": "watchShopApi",
+  "BasePath": "_content/watchShopApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "watchShopApi\\wwwroot",
+      "Source": "watchShopApi",
+      "ContentRoot": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\wwwroot\\",
+      "BasePath": "_content/watchShopApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\wwwroot\\temp\\f79f7529-e2fb-407e-a51c-e8208f781dc6.png",
+      "SourceId": "watchShopApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\wwwroot\\",
+      "BasePath": "_content/watchShopApi",
+      "RelativePath": "temp/f79f7529-e2fb-407e-a51c-e8208f781dc6.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\temp\\f79f7529-e2fb-407e-a51c-e8208f781dc6.png"
+    }
+  ]
+}

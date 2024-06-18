@@ -1,0 +1,11 @@
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\bin\Debug\net8.0\WatchShop.Domain.deps.json
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\bin\Debug\net8.0\WatchShop.Domain.dll
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\bin\Debug\net8.0\WatchShop.Domain.pdb
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\WatchShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\WatchShop.Domain.AssemblyInfoInputs.cache
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\WatchShop.Domain.AssemblyInfo.cs
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\WatchShop.Domain.csproj.CoreCompileInputs.cache
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\WatchShop.Domain.dll
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\refint\WatchShop.Domain.dll
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\WatchShop.Domain.pdb
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\ref\WatchShop.Domain.dll

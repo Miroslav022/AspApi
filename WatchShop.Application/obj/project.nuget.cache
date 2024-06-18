@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+8S4QYbvWjedCBJufOoIrEIxTe5mnrnp0MtE7ychuuebhFINKf55K8VfrsWB+hIIFw9Ox9Mk0G0d0p6qXb5Mrw==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Application\\WatchShop.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jandr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jandr\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

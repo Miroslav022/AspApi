@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\wwwroot\\temp\\f79f7529-e2fb-407e-a51c-e8208f781dc6.png",
+      "PackagePath": "staticwebassets\\temp\\f79f7529-e2fb-407e-a51c-e8208f781dc6.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.watchShopApi.props",
+      "PackagePath": "build\\watchShopApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.watchShopApi.props",
+      "PackagePath": "buildMultiTargeting\\watchShopApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.watchShopApi.props",
+      "PackagePath": "buildTransitive\\watchShopApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.watchShopApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,17 @@
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\bin\Debug\net8.0\WatchShop.DataAccess.deps.json
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\bin\Debug\net8.0\WatchShop.DataAccess.runtimeconfig.json
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\bin\Debug\net8.0\WatchShop.DataAccess.dll
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\bin\Debug\net8.0\WatchShop.DataAccess.pdb
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\bin\Debug\net8.0\WatchShop.Domain.dll
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\bin\Debug\net8.0\WatchShop.Domain.pdb
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\obj\Debug\net8.0\WatchShop.DataAccess.csproj.AssemblyReference.cache
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\obj\Debug\net8.0\WatchShop.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\obj\Debug\net8.0\WatchShop.DataAccess.AssemblyInfoInputs.cache
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\obj\Debug\net8.0\WatchShop.DataAccess.AssemblyInfo.cs
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\obj\Debug\net8.0\WatchShop.DataAccess.csproj.CoreCompileInputs.cache
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\obj\Debug\net8.0\WatchSho.0E0FDCD4.Up2Date
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\obj\Debug\net8.0\WatchShop.DataAccess.dll
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\obj\Debug\net8.0\refint\WatchShop.DataAccess.dll
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\obj\Debug\net8.0\WatchShop.DataAccess.pdb
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\obj\Debug\net8.0\WatchShop.DataAccess.genruntimeconfig.cache
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.DataAccess\obj\Debug\net8.0\ref\WatchShop.DataAccess.dll
