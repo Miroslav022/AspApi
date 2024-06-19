@@ -7,10 +7,12 @@ namespace WatchShop.Implementation
     public class UseCaseHandler
     {
         private readonly IApplicationActor _actor;
+        private readonly IUseCaseLogger _logger;
 
-        public UseCaseHandler(IApplicationActor actor)
+        public UseCaseHandler(IApplicationActor actor, IUseCaseLogger logger)
         {
             _actor = actor;
+            _logger = logger;
         }
 
         public void HandleCommand<TData>(ICommand<TData> command, TData data) {
@@ -50,14 +52,14 @@ namespace WatchShop.Implementation
                 throw new UnauthorizedAccessException();
             }
 
-            //var log = new UseCaseLog
-            //{
-            //    UseCaseData = data,
-            //    UseCaseName = useCase.Name,
-            //    Username = _actor.Username,
-            //};
+            var log = new UseCaseLog
+            {
+                UseCaseData = data,
+                UseCaseName = useCase.Name,
+                Username = _actor.Username,
+            };
 
-            //_logger.Log(log);
+            _logger.Log(log);
         }
     }
 }

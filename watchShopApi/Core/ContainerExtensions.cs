@@ -63,6 +63,7 @@ using WatchShop.Implementation.UseCases.Queries.Carts;
 using WatchShop.Application.UseCases.Commands.ProductImages;
 using WatchShop.Implementation.UseCases.Commands.ProductImages;
 using WatchShop.Implementation.Validators.ProductImagesValidator;
+using WatchShop.Application;
 
 namespace watchShopApi.Core
 {
@@ -112,6 +113,7 @@ namespace watchShopApi.Core
             services.AddTransient<IEditUserCommand, EfEditUserCommand>();
             services.AddTransient<IEditMyAccount, EfEditMyAccountCommand>();
             services.AddTransient<IAddProductImagesCommand, EfProductImagesCommand>();
+            services.AddTransient<IUseCaseLogger, DbUseCaseLogger>();
 
             services.AddTransient<RegisterUserDtoValidator>();
             services.AddTransient<BrandDtoValidator>();

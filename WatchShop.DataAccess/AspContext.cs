@@ -41,6 +41,8 @@ namespace WatchShop.DataAccess
         public DbSet<Product> Products { get; set; }
         public DbSet<Recension> Recensions { get; set; }
         public DbSet<Price> Prices { get; set; }
+        public DbSet<ErrorLog> ErrorLogs { get; set; }
+        public DbSet<UseCaseLog> UseCaseLogs { get; set; }
 
 
         public override int SaveChanges()

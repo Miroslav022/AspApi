@@ -13,35 +13,4 @@ namespace watchShopApi.Core
             return id;
         }
     }
-
-    //public class DbExceptionLogger : IExceptionLogger
-    //{
-    //    private readonly AspContext _aspContext;
-
-    //    public DbExceptionLogger(AspContext aspContext)
-    //    {
-    //        _aspContext = aspContext;
-    //    }
-
-    //   public Guid Log(Exception ex, IApplicationActor actor)
-    //    {
-    //        Guid id = Guid.NewGuid();
-    //        //ID, Message, Time, StrackTrace
-    //        ErrorLog log = new()
-    //        {
-    //            ErrorId = id,
-    //            Message = ex.Message,
-    //            StrackTrace = ex.StackTrace,
-    //            Time = DateTime.UtcNow
-    //        };
-
-    //        //_aspContext.Entry(log).State = EntityState.Added;
-
-    //        _aspContext.ErrorLogs.Add(log);
-
-    //        _aspContext.SaveChanges();
-
-    //        return id;
-    //    }
-    //}
 }

@@ -6,6 +6,8 @@ using WatchShop.DataAccess;
 using WatchShop.Implementation;
 using watchShopApi.Core;
 using watchShopApi;
+using Microsoft.Data.SqlClient;
+using System.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +22,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient(x=>new AspContext());
+builder.Services.AddScoped<IDbConnection>(x => new SqlConnection(settings.ConnectionString));
 builder.Services.AddTransient<JwtTokenCreator>();
 builder.Services.AddTransient<UseCaseHandler>();
 
@@ -28,7 +31,7 @@ builder.Services.AddUseCases();
 
 builder.Services.AddHttpContextAccessor();
 
-builder.Services.AddTransient<IExceptionLogger, ConsoleExceptionLogger>();
+builder.Services.AddTransient<IExceptionLogger, DbExceptionLogger>();
 builder.Services.AddTransient<ITokenStorage, InMemoryTokenStorage>();
 
 //JWT ?
