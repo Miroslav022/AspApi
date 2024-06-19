@@ -13,3 +13,4 @@ D:\Users\jandric\source\repos\watchShopApi\WatchShop.Application\obj\Debug\net8.
 D:\Users\jandric\source\repos\watchShopApi\WatchShop.Application\obj\Debug\net8.0\refint\WatchShop.Application.dll
 D:\Users\jandric\source\repos\watchShopApi\WatchShop.Application\obj\Debug\net8.0\WatchShop.Application.pdb
 D:\Users\jandric\source\repos\watchShopApi\WatchShop.Application\obj\Debug\net8.0\ref\WatchShop.Application.dll
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Application\obj\Debug\net8.0\WatchShop.Application.sourcelink.json

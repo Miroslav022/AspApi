@@ -15,7 +15,7 @@ namespace watchShopApi.Controllers
         {
             _tokenCreator = tokenCreator;
         }
-
+        
         [HttpPost]
         public IActionResult Post([FromBody] AuthRequest request)
         {

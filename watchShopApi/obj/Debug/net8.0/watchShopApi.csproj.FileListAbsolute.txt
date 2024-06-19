@@ -84,3 +84,4 @@ D:\Users\jandric\source\repos\watchShopApi\watchShopApi\bin\Debug\net8.0\watchSh
 D:\Users\jandric\source\repos\watchShopApi\watchShopApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Users\jandric\source\repos\watchShopApi\watchShopApi\bin\Debug\net8.0\Castle.Core.dll
 D:\Users\jandric\source\repos\watchShopApi\watchShopApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Users\jandric\source\repos\watchShopApi\watchShopApi\obj\Debug\net8.0\watchShopApi.sourcelink.json

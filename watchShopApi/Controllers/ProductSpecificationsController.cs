@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WatchShop.Application.DTO.ProductSpecificationsDtos;
 using WatchShop.Application.UseCases.Commands.ProductSpecificationsCommands;
@@ -16,12 +17,14 @@ namespace watchShopApi.Controllers
         {
             _useCaseHandler = useCaseHandler;
         }
+        [Authorize]
+        [HttpPost]
         public IActionResult Post([FromServices] ICreateProductSpecificationCommand command, [FromBody] AddProductSpecificationDto data)
         {
             _useCaseHandler.HandleCommand(command, data);
             return StatusCode(201);
         }
-
+        [Authorize]
         [HttpDelete]
         public IActionResult Delete([FromServices] IDeleteProductSpecification command, [FromBody] DeleteProductSpecificationDto data)
         {

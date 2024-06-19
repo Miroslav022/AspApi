@@ -13,11 +13,15 @@ namespace WatchShop.Implementation
             _actor = actor;
         }
 
-        public void HandleCommand<TData>(ICommand<TData> command, TData data) { 
-            //Implement Cros cutting concerns
-            //StopWatch
+        public void HandleCommand<TData>(ICommand<TData> command, TData data) {
+            HandleCrossCuttingConcerns(command, data);
+
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
             command.Execute(data);
-            
+            stopwatch.Stop();
+
+            Console.WriteLine($"UseCase: {command.Name}, {stopwatch.ElapsedMilliseconds} ms");
         }
 
         //Query
@@ -25,7 +29,7 @@ namespace WatchShop.Implementation
             where TResult : class
 
         {
-            //HandleCrossCuttingConcerns(query, search);
+            HandleCrossCuttingConcerns(query, search);
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 

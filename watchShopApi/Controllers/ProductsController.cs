@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata;
 using WatchShop.Application.DTO.Brands;
 using WatchShop.Application.DTO.Common;
@@ -22,6 +23,7 @@ namespace watchShopApi.Controllers
             _useCaseHandler = useCaseHandler;
         }
 
+
         [HttpGet("{id}")]
         public IActionResult Get([FromServices] IProductDetailsQuery query,int id)
         {
@@ -31,14 +33,21 @@ namespace watchShopApi.Controllers
         [HttpGet]
         public IActionResult Get([FromQuery] ProductSearch search, [FromServices] IProductSearchQuery query)
             => Ok(_useCaseHandler.HandleQuery(query, search));
-
+        [Authorize]
         [HttpPost]
         public IActionResult Post([FromServices] ICreateProductCommand command, [FromBody] CreateProductDto data)
         {
             _useCaseHandler.HandleCommand(command, data);
             return StatusCode(201);
         }
-
+        [Authorize]
+        [HttpPut]
+        public IActionResult Put([FromServices] IEditProductCommand command, EditProductDto data)
+        {
+            _useCaseHandler.HandleCommand(command, data);
+            return NoContent();
+        }
+        [Authorize]
         [HttpPatch]
         public IActionResult Patch([FromServices] IDeleteProductCommand command, DeleteDto data)
         {

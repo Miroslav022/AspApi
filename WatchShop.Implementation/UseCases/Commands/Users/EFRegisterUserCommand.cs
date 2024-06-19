@@ -27,6 +27,12 @@ namespace WatchShop.Implementation.UseCases.Commands.Users
         public void Execute(RegisterUserDto data)
         {
             _validator.ValidateAndThrow(data);
+            var allowedUseCasesForNewUser = new List<int> { 10, 11, 22, 24, 29, 30, 34, 35, 37, 40 };
+            var useCasesForNewUser = new List<UserUseCase>();
+            foreach (var i in allowedUseCasesForNewUser)
+            {
+                useCasesForNewUser.Add(new UserUseCase { UseCaseId = i });
+            };
 
             User user = new User
             {
@@ -42,10 +48,7 @@ namespace WatchShop.Implementation.UseCases.Commands.Users
                     CityId = data.CityId,
                     Address = data.Address,
                 },
-                //UserUseCases = new List<UserUseCase>()
-                //{
-                //    new UserUseCase() {UseCaseId = }
-                //}
+                UserUseCases = useCasesForNewUser
             };
             Context.Users.Add(user);
             Context.SaveChanges();

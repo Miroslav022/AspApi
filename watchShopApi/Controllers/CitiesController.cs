@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WatchShop.Application;
 using WatchShop.Application.DTO.Cities;
 using WatchShop.Application.DTO.Common;
@@ -25,7 +26,7 @@ namespace watchShopApi.Controllers
         [HttpGet]
         public IActionResult Get([FromQuery] KeywordSearchDto search, [FromServices] IGetCitiesQuery query)
            => Ok(_useCaseHandler.HandleQuery(query, search));
-
+        [Authorize]
         [HttpPost]
         public IActionResult Post([FromBody] CreateCityDto data, [FromServices] ICreateCityCommand command)
         {
@@ -33,7 +34,7 @@ namespace watchShopApi.Controllers
             return StatusCode(201);
             
         }
-
+        [Authorize]
         [HttpPatch]
         public IActionResult Patch([FromServices] IDeleteCityCommand command, DeleteDto data)
         {

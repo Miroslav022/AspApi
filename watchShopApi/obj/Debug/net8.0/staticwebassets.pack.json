@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\wwwroot\\temp\\f79f7529-e2fb-407e-a51c-e8208f781dc6.png",
-      "PackagePath": "staticwebassets\\temp\\f79f7529-e2fb-407e-a51c-e8208f781dc6.png"
+      "Id": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\wwwroot\\products\\8214ca9f-5a8f-4c75-aaba-b34a3dc40e0b.png",
+      "PackagePath": "staticwebassets\\products\\8214ca9f-5a8f-4c75-aaba-b34a3dc40e0b.png"
+    },
+    {
+      "Id": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\wwwroot\\products\\f79f7529-e2fb-407e-a51c-e8208f781dc6.png",
+      "PackagePath": "staticwebassets\\products\\f79f7529-e2fb-407e-a51c-e8208f781dc6.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.watchShopApi.props",

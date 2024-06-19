@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{149BE7BD-4A79-40D0-8024-3E727C4D6108}|WatchShop.Implementation\\WatchShop.Implementation.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshop.implementation\\usecases\\queries\\products\\efgetproductdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149BE7BD-4A79-40D0-8024-3E727C4D6108}|WatchShop.Implementation\\WatchShop.Implementation.csproj|solutionrelative:watchshop.implementation\\usecases\\queries\\products\\efgetproductdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{280C65F7-F3C7-4EF2-8DD2-708007483FEF}|WatchShop.Domain\\WatchShop.Domain.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshop.domain\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{280C65F7-F3C7-4EF2-8DD2-708007483FEF}|WatchShop.Domain\\WatchShop.Domain.csproj|solutionrelative:watchshop.domain\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D092A3DA-7106-4432-BFD8-4CDA633F71B4}|WatchShop.DataAccess\\WatchShop.DataAccess.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshop.dataaccess\\aspcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D092A3DA-7106-4432-BFD8-4CDA633F71B4}|WatchShop.DataAccess\\WatchShop.DataAccess.csproj|solutionrelative:watchshop.dataaccess\\aspcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{149BE7BD-4A79-40D0-8024-3E727C4D6108}|WatchShop.Implementation\\WatchShop.Implementation.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshop.implementation\\usecases\\commands\\brands\\efdeletebrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{149BE7BD-4A79-40D0-8024-3E727C4D6108}|WatchShop.Implementation\\WatchShop.Implementation.csproj|solutionrelative:watchshop.implementation\\usecases\\commands\\brands\\efdeletebrandcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,63 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Image.cs",
-              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Domain\\Entities\\Image.cs",
-              "RelativeDocumentMoniker": "WatchShop.Domain\\Entities\\Image.cs",
-              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Domain\\Entities\\Image.cs",
-              "RelativeToolTip": "WatchShop.Domain\\Entities\\Image.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T23:51:44.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AspContext.cs",
-              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.DataAccess\\AspContext.cs",
-              "RelativeDocumentMoniker": "WatchShop.DataAccess\\AspContext.cs",
-              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.DataAccess\\AspContext.cs",
-              "RelativeToolTip": "WatchShop.DataAccess\\AspContext.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAA0wCIAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T23:48:17.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EfGetProductDetailsQuery.cs",
-              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Implementation\\UseCases\\Queries\\Products\\EfGetProductDetailsQuery.cs",
-              "RelativeDocumentMoniker": "WatchShop.Implementation\\UseCases\\Queries\\Products\\EfGetProductDetailsQuery.cs",
-              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Implementation\\UseCases\\Queries\\Products\\EfGetProductDetailsQuery.cs",
-              "RelativeToolTip": "WatchShop.Implementation\\UseCases\\Queries\\Products\\EfGetProductDetailsQuery.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAkwCgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T22:46:13.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EfDeleteBrandCommand.cs",
-              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Implementation\\UseCases\\Commands\\Brands\\EfDeleteBrandCommand.cs",
-              "RelativeDocumentMoniker": "WatchShop.Implementation\\UseCases\\Commands\\Brands\\EfDeleteBrandCommand.cs",
-              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Implementation\\UseCases\\Commands\\Brands\\EfDeleteBrandCommand.cs",
-              "RelativeToolTip": "WatchShop.Implementation\\UseCases\\Commands\\Brands\\EfDeleteBrandCommand.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T22:04:09.321Z",
-              "EditorCaption": ""
             }
           ]
         }

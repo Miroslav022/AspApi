@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using WatchShop.Application;
 using WatchShop.Application.DTO.Carts;
 using WatchShop.Application.UseCases.Commands.Carts;
 using WatchShop.DataAccess;
@@ -16,9 +17,11 @@ namespace WatchShop.Implementation.UseCases.Commands.Carts
     public class EfAddToCartCommand : EFUseCase, IAddToCartCommand
     {
         private readonly AddToCartDtoValidator _validator;
-        public EfAddToCartCommand(AspContext context, AddToCartDtoValidator validator) : base(context)
+        private readonly IApplicationActor _actor;
+        public EfAddToCartCommand(AspContext context, AddToCartDtoValidator validator, IApplicationActor actor) : base(context)
         {
             _validator = validator;
+            _actor = actor;
         }
 
         public int Id => 10;
@@ -30,7 +33,7 @@ namespace WatchShop.Implementation.UseCases.Commands.Carts
             _validator.ValidateAndThrow(data);
 
             
-            Cart userCartIfExists = Context.Carts.FirstOrDefault(x => x.UserId == data.UserId && !x.IsPurcheased);
+            Cart userCartIfExists = Context.Carts.FirstOrDefault(x => x.UserId == _actor.Id && !x.IsPurcheased);
 
             if(userCartIfExists == null)
             {
@@ -40,7 +43,7 @@ namespace WatchShop.Implementation.UseCases.Commands.Carts
                     PriceId = data.PriceId,
                     Cart = new Cart
                     {
-                        UserId = data.UserId,
+                        UserId = _actor.Id,
                         IsPurcheased = false,
                     }
                 };

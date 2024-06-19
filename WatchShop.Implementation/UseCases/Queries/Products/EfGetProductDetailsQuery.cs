@@ -32,7 +32,7 @@ namespace WatchShop.Implementation.UseCases.Queries.Products
                 Id = product.Id,
                 Name = product.Name,
                 Description = product.Description,
-                Price = product.Prices.First(x => x.IsActive).Amount,
+                Price = product.Prices.OrderByDescending(p => p.CreatedAt).FirstOrDefault().Amount,
                 Brand = product.Brand.Name,
                 Category = product.Category.Name,
                 Images = product.Images.Select(x => new ProductImageDto

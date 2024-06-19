@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WatchShop.Application;
 using WatchShop.Application.DTO.Brands;
 using WatchShop.Application.DTO.Common;
@@ -23,12 +24,12 @@ namespace watchShopApi.Controllers
             _handler = handler;
             _actor = actor;
         }
-
+        [Authorize]
         [HttpGet]
         public IActionResult Get([FromQuery] BrandSearch search, [FromServices] IGetBrandsQuery query)
             => Ok(_handler.HandleQuery(query, search));
 
-
+        [Authorize]
         [HttpPost]
         public IActionResult Post([FromServices] ICreateBrandCommand command, [FromBody] NamedEntityDto dto)
         {
@@ -41,7 +42,7 @@ namespace watchShopApi.Controllers
                 return StatusCode(500);
             }
         }
-
+        [Authorize]
         [HttpPatch]
         public IActionResult Patch([FromServices] IDeleteBrandCommand command, DeleteDto data)
         {

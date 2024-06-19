@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "skw5Ly0WG4f5+vEFGtQXvOxwoQwBUwkE+EV0Kq8pJQM=",
+  "Hash": "Ey6EqznXQjlfN/4l8PSnZTYjQoVgtKtmLRv3o7ws/YY=",
   "Source": "watchShopApi",
   "BasePath": "_content/watchShopApi",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\wwwroot\\temp\\f79f7529-e2fb-407e-a51c-e8208f781dc6.png",
+      "Identity": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\wwwroot\\products\\8214ca9f-5a8f-4c75-aaba-b34a3dc40e0b.png",
       "SourceId": "watchShopApi",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\wwwroot\\",
       "BasePath": "_content/watchShopApi",
-      "RelativePath": "temp/f79f7529-e2fb-407e-a51c-e8208f781dc6.png",
+      "RelativePath": "products/8214ca9f-5a8f-4c75-aaba-b34a3dc40e0b.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,7 +33,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\temp\\f79f7529-e2fb-407e-a51c-e8208f781dc6.png"
+      "OriginalItemSpec": "wwwroot\\products\\8214ca9f-5a8f-4c75-aaba-b34a3dc40e0b.png"
+    },
+    {
+      "Identity": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\wwwroot\\products\\f79f7529-e2fb-407e-a51c-e8208f781dc6.png",
+      "SourceId": "watchShopApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\wwwroot\\",
+      "BasePath": "_content/watchShopApi",
+      "RelativePath": "products/f79f7529-e2fb-407e-a51c-e8208f781dc6.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\f79f7529-e2fb-407e-a51c-e8208f781dc6.png"
     }
   ]
 }

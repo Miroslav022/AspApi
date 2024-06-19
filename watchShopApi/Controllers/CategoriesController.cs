@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata;
 using WatchShop.Application;
 using WatchShop.Application.DTO.Brands;
@@ -23,18 +24,18 @@ namespace watchShopApi.Controllers
             _useCaseHandler = useCaseHandler;
             _actor = actor;
         }
-
+        [Authorize]
         [HttpGet]
         public IActionResult Get([FromQuery] KeywordSearchDto search, [FromServices] ICategorySearchQuery query)
             => Ok(_useCaseHandler.HandleQuery(query, search));
-
+        [Authorize]
         [HttpPost]
         public IActionResult Post([FromServices] ICreateCategoryCommand command, NamedEntityDto dto)
         {
             _useCaseHandler.HandleCommand(command, dto);
             return StatusCode(201);
         }
-
+        [Authorize]
         [HttpPatch]
         public IActionResult Patch([FromServices] IDeleteCategoryCommand command, DeleteDto data)
         {

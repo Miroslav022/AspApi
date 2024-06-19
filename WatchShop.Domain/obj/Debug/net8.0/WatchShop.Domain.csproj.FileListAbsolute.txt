@@ -9,3 +9,4 @@ D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\Wat
 D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\refint\WatchShop.Domain.dll
 D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\WatchShop.Domain.pdb
 D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\ref\WatchShop.Domain.dll
+D:\Users\jandric\source\repos\watchShopApi\WatchShop.Domain\obj\Debug\net8.0\WatchShop.Domain.sourcelink.json

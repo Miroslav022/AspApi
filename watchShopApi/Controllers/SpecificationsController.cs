@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WatchShop.Application.DTO.Common;
 using WatchShop.Application.DTO.Product;
 using WatchShop.Application.UseCases.Commands.Brands;
@@ -24,14 +25,14 @@ namespace watchShopApi.Controllers
         [HttpGet]
         public IActionResult Get([FromQuery] KeywordSearchDto search, [FromServices] IGetSpecificationsQuery query)
             => Ok(_useCaseHandler.HandleQuery(query, search));
-
+        [Authorize]
         [HttpPost]
         public IActionResult Post([FromServices] ICreateSpecificationCommand command, NamedEntityDto data)
         {
             _useCaseHandler.HandleCommand(command, data);
             return StatusCode(201);
         }
-
+        [Authorize]
         [HttpPatch]
         public IActionResult Patch([FromServices] IDeleteSpecificationCommand command, DeleteDto data)
         {

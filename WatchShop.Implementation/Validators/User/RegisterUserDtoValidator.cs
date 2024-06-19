@@ -37,7 +37,8 @@ namespace WatchShop.Implementation.Validators.User
 
             RuleFor(x => x.CityId).NotEmpty().Must(x => ctx.Cities.Any(c => c.Id == x && c.IsActive));
 
-            RuleFor(x=>x.Address).NotEmpty().MinimumLength(5);
+            RuleFor(x => x.Address).NotEmpty().WithMessage("Address is required")
+                                   .MaximumLength(10).WithMessage("Addres must have maximum 10 characters");
 
             RuleFor(x=>x.Password).NotEmpty()
                                   .Matches(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,20}$")

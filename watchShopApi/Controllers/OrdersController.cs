@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WatchShop.Application;
 using WatchShop.Application.DTO.Common;
@@ -22,10 +23,15 @@ namespace watchShopApi.Controllers
             _useCaseHandler = useCaseHandler;
             _actor = actor;
         }
+        [Authorize]
+        [HttpGet("myOrders")]
+        public IActionResult Get([FromQuery] MyOrdersSearchDto search, [FromServices] IGetMyOrdersQuery query)
+           => Ok(_useCaseHandler.HandleQuery(query, search));
+        [Authorize]
         [HttpGet]
         public IActionResult Get([FromQuery] OrderSearchDto search, [FromServices] IGetOrdersQuery query)
            => Ok(_useCaseHandler.HandleQuery(query, search));
-
+        [Authorize]
         [HttpPost]
         public IActionResult Post([FromBody] CreateOrderDto data, [FromServices] ICreateOrderCommand command)
         {

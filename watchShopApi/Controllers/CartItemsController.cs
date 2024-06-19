@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WatchShop.Application;
 using WatchShop.Application.DTO.Carts;
@@ -20,7 +21,7 @@ namespace watchShopApi.Controllers
             _useCaseHandler = useCaseHandler;
             _actor = actor;
         }
-
+        [Authorize]
         [HttpDelete]
         public IActionResult Post([FromServices] IDeleteCartItemCommand command, [FromBody] DeleteDto data)
         {

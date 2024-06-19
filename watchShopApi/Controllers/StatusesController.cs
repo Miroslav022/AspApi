@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata;
 using WatchShop.Application.DTO.Common;
 using WatchShop.Application.UseCases.Commands.CommonUseCase;
@@ -19,18 +20,18 @@ namespace watchShopApi.Controllers
         {
             _useCaseHandler = useCaseHandler;
         }
-
+        [Authorize]
         [HttpGet]
         public IActionResult Get([FromQuery] KeywordSearchDto search, [FromServices] IGetStatusesQuery query)
            => Ok(_useCaseHandler.HandleQuery(query, search));
-
+        [Authorize]
         [HttpPost]
         public IActionResult Post([FromServices] ICreateStatusCommand command, [FromBody] NamedEntityDto data)
         {
             _useCaseHandler.HandleCommand(command, data);
             return StatusCode(201);
         }
-
+        [Authorize]
         [HttpPatch]
         public IActionResult Patch([FromServices] IDeleteStatusCommand command, DeleteDto data)
         {

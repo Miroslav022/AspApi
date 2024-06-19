@@ -72,7 +72,7 @@ namespace WatchShop.Implementation.UseCases.Queries.Products
                         path = img.Image.path,
                         IsBackground = img.IsBackground,
                     }).ToList(),
-                    Price = x.Prices.First(x=>x.IsActive).Amount,
+                    Price = x.Prices.OrderByDescending(p => p.CreatedAt).FirstOrDefault().Amount,
                     Recensions = x.Recensions.Select(r=>new RecensionDto
                     {
                         Description = r.Description,

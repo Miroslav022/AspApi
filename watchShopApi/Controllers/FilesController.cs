@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using watchShopApi.DTO;
 
 namespace watchShopApi.Controllers
@@ -11,14 +12,14 @@ namespace watchShopApi.Controllers
        {
            ".jpg", ".jpeg", ".png"
        };
-
+        [Authorize]
         [HttpGet("{fileName}")]
         public IActionResult GetFile(string fileName)
         {
             var path = Path.Combine("wwwroot", "temp", fileName);
             return Ok(new {exists = Path.Exists(path)});
         }
-
+        [Authorize]
         [HttpPost]
         public IActionResult Post([FromForm] FileUploadDto dto)
         {

@@ -70,7 +70,8 @@ namespace WatchShop.Implementation.UseCases.Queries.Carts
                         Id = prod.Id,
                         Name = prod.ProductPrice.Product.Name,
                         Price = prod.ProductPrice.Amount,
-                        Quantity = prod.Quantity
+                        Quantity = prod.Quantity,
+                        BackgroudImage = prod.ProductPrice.Product.Images.First(i=>i.IsBackground).Image.path,
                     }).ToList()
                 }).ToList(),
                 PerPage = perPage,

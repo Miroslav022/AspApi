@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WatchShop.Application.DTO.Common;
 using WatchShop.Application.UseCases.Commands.Cities;
@@ -17,7 +18,7 @@ namespace watchShopApi.Controllers
         {
             _useCaseHandler = useCaseHandler;
         }
-
+        [Authorize]
         [HttpPatch]
         public IActionResult Patch([FromServices] IDeleteImageCommand command, DeleteDto data)
         {

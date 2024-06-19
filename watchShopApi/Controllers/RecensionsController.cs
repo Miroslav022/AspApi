@@ -29,7 +29,7 @@ namespace watchShopApi.Controllers
             _useCaseHandler.HandleCommand(command, data);
             return StatusCode(201);
         }
-
+        [Authorize]
         [HttpPatch]
         public IActionResult Patch([FromServices] IDeleteRecensionCommand command, DeleteDto data)
         {

@@ -16,6 +16,6 @@ namespace WatchShop.Application.DTO.Users
         public DateTime BirthDate { get; set; }
 
         public int CityId { get; set; }
-        public string Address { get; set; }
+        public string? Address { get; set; }
     }
 }

@@ -21,6 +21,6 @@ namespace WatchShop.Implementation
             }
         }
 
-        public static int MaxUseCaseId => 26;
+        public static int MaxUseCaseId => 41;
     }
 }

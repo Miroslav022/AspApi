@@ -60,6 +60,9 @@ using WatchShop.Application.UseCases.Queries.Orders;
 using WatchShop.Implementation.UseCases.Queries.Orders;
 using WatchShop.Application.UseCases.Queries.Carts;
 using WatchShop.Implementation.UseCases.Queries.Carts;
+using WatchShop.Application.UseCases.Commands.ProductImages;
+using WatchShop.Implementation.UseCases.Commands.ProductImages;
+using WatchShop.Implementation.Validators.ProductImagesValidator;
 
 namespace watchShopApi.Core
 {
@@ -102,6 +105,13 @@ namespace watchShopApi.Core
             services.AddTransient<IGetOrdersQuery, EfGetOrdersQuery>();
             services.AddTransient<IGetCartsQuery, EfGetCartQuery>();
             services.AddTransient<IProductDetailsQuery, EfGetProductDetailsQuery>();
+            services.AddTransient<IGetUserCartQuery, EfGetUserCartQuery>();
+            services.AddTransient<IGetSingleUserQuery, EfGetSingleUserQuery>();
+            services.AddTransient<IGetMyOrdersQuery, EfMyOrdersQuery>();
+            services.AddTransient<IEditProductCommand, EfEditProductCommand>();
+            services.AddTransient<IEditUserCommand, EfEditUserCommand>();
+            services.AddTransient<IEditMyAccount, EfEditMyAccountCommand>();
+            services.AddTransient<IAddProductImagesCommand, EfProductImagesCommand>();
 
             services.AddTransient<RegisterUserDtoValidator>();
             services.AddTransient<BrandDtoValidator>();
@@ -127,6 +137,10 @@ namespace watchShopApi.Core
             services.AddTransient<DeleteItemValidator<CartItem>>();
             services.AddTransient<DeleteProductSpecificationValidator>();
             services.AddTransient<CreateProductSpecificationDtoValidator>();
+            services.AddTransient<EditProductDtoValidation>();
+            services.AddTransient<EditUserDtoValidation>();
+            services.AddTransient<EditMyAccountDtoValidator>();
+            services.AddTransient<ProductImagesDtoValidator>();
         }
         public static Guid? GetTokenId(this HttpRequest request)
         {
