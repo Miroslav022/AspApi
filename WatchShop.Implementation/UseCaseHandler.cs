@@ -8,14 +8,15 @@ namespace WatchShop.Implementation
     {
         private readonly IApplicationActor _actor;
         private readonly IUseCaseLogger _logger;
-
+        private static List<int> GloballyAllowed => new List<int> { 1 };
         public UseCaseHandler(IApplicationActor actor, IUseCaseLogger logger)
         {
             _actor = actor;
             _logger = logger;
         }
 
-        public void HandleCommand<TData>(ICommand<TData> command, TData data) {
+        public void HandleCommand<TData>(ICommand<TData> command, TData data)
+        {
             HandleCrossCuttingConcerns(command, data);
 
             Stopwatch stopwatch = new Stopwatch();
@@ -46,8 +47,8 @@ namespace WatchShop.Implementation
         //CCC
         private void HandleCrossCuttingConcerns(IUseCase useCase, object data)
         {
-            
-            if (!_actor.AllowedUseCases.Contains(useCase.Id))
+
+            if (!_actor.AllowedUseCases.Contains(useCase.Id) && !GloballyAllowed.Contains(useCase.Id))
             {
                 throw new UnauthorizedAccessException();
             }

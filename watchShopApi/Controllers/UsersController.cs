@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Castle.Core.Smtp;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WatchShop.Application.DTO.Common;
 using WatchShop.Application.DTO.Product;
@@ -10,6 +11,7 @@ using WatchShop.Application.UseCases.Commands.UserUseCases;
 using WatchShop.Application.UseCases.Queries.Products;
 using WatchShop.Application.UseCases.Queries.Users;
 using WatchShop.Implementation;
+using watchShopApi.Core;
 
 namespace watchShopApi.Controllers
 {
@@ -18,9 +20,11 @@ namespace watchShopApi.Controllers
     public class UsersController : ControllerBase
     {
         private UseCaseHandler _useCaseHandler;
-        public UsersController(UseCaseHandler useCaseHandler)
+        private ISendEmail _emailSender;
+        public UsersController(UseCaseHandler useCaseHandler, ISendEmail emailSender)
         {
             _useCaseHandler = useCaseHandler;
+            _emailSender = emailSender;
         }
         [Authorize]
         [HttpGet("{id}")]

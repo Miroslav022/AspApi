@@ -33,8 +33,8 @@ builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddTransient<IExceptionLogger, DbExceptionLogger>();
 builder.Services.AddTransient<ITokenStorage, InMemoryTokenStorage>();
+builder.Services.AddTransient<ISendEmail, EmailSender>();
 
-//JWT ?
 builder.Services.AddTransient<IApplicationActorProvider>(x =>
 {
     var accessor = x.GetService<IHttpContextAccessor>();
