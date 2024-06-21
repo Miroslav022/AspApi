@@ -47,7 +47,7 @@ namespace WatchShop.Implementation.UseCases.Queries.Cities
                     Country = new NamedSearchDto
                     {
                         Name = x.Country.Name,
-                        Id = x.Id,
+                        Id = x.Country.Id,
                     }
                 }),
                 PerPage = perPage,
