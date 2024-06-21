@@ -39,6 +39,7 @@ namespace watchShopApi.Controllers
         public IActionResult Post([FromServices] IRegisterUserCommand command, RegisterUserDto dto)
         {
             _useCaseHandler.HandleCommand(command, dto);
+            _emailSender.SendEmailAsync("jandric013@gmail.com", "test", "test");
             return StatusCode(201);
         }
         [Authorize]

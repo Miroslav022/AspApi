@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshopapi\\core\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|solutionrelative:watchshopapi\\core\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D092A3DA-7106-4432-BFD8-4CDA633F71B4}|WatchShop.DataAccess\\WatchShop.DataAccess.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshop.dataaccess\\aspcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D092A3DA-7106-4432-BFD8-4CDA633F71B4}|WatchShop.DataAccess\\WatchShop.DataAccess.csproj|solutionrelative:watchshop.dataaccess\\aspcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshopapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|solutionrelative:watchshopapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshopapi\\controllers\\initialdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|solutionrelative:watchshopapi\\controllers\\initialdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshopapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|solutionrelative:watchshopapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0D67EDD4-EA38-4757-A76F-17D7EF83EC27}|WatchShop.Application\\WatchShop.Application.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshop.application\\dto\\common\\namedsearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D67EDD4-EA38-4757-A76F-17D7EF83EC27}|WatchShop.Application\\WatchShop.Application.csproj|solutionrelative:watchshop.application\\dto\\common\\namedsearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshopapi\\core\\isendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|solutionrelative:watchshopapi\\core\\isendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{149BE7BD-4A79-40D0-8024-3E727C4D6108}|WatchShop.Implementation\\WatchShop.Implementation.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshop.implementation\\usecases\\queries\\countries\\efgetcountryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{149BE7BD-4A79-40D0-8024-3E727C4D6108}|WatchShop.Implementation\\WatchShop.Implementation.csproj|solutionrelative:watchshop.implementation\\usecases\\queries\\countries\\efgetcountryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|solutionrelative:watchshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{149BE7BD-4A79-40D0-8024-3E727C4D6108}|WatchShop.Implementation\\WatchShop.Implementation.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshop.implementation\\usecases\\queries\\categories\\efgetcategoriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{149BE7BD-4A79-40D0-8024-3E727C4D6108}|WatchShop.Implementation\\WatchShop.Implementation.csproj|solutionrelative:watchshop.implementation\\usecases\\queries\\categories\\efgetcategoriesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{149BE7BD-4A79-40D0-8024-3E727C4D6108}|WatchShop.Implementation\\WatchShop.Implementation.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshop.implementation\\usecasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{149BE7BD-4A79-40D0-8024-3E727C4D6108}|WatchShop.Implementation\\WatchShop.Implementation.csproj|solutionrelative:watchshop.implementation\\usecasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|d:\\users\\jandric\\source\\repos\\watchshopapi\\watchshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B30D7CB-E678-4237-861C-B792C1BB4783}|watchShopApi\\watchShopApi.csproj|solutionrelative:watchshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +38,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 229,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AspContext.cs",
+              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.DataAccess\\AspContext.cs",
+              "RelativeDocumentMoniker": "WatchShop.DataAccess\\AspContext.cs",
+              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.DataAccess\\AspContext.cs",
+              "RelativeToolTip": "WatchShop.DataAccess\\AspContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T10:57:44.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InitialDataController.cs",
+              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\Controllers\\InitialDataController.cs",
+              "RelativeDocumentMoniker": "watchShopApi\\Controllers\\InitialDataController.cs",
+              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\Controllers\\InitialDataController.cs",
+              "RelativeToolTip": "watchShopApi\\Controllers\\InitialDataController.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAgwIgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T10:55:09.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NamedSearchDto.cs",
+              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Application\\DTO\\Common\\NamedSearchDto.cs",
+              "RelativeDocumentMoniker": "WatchShop.Application\\DTO\\Common\\NamedSearchDto.cs",
+              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Application\\DTO\\Common\\NamedSearchDto.cs",
+              "RelativeToolTip": "WatchShop.Application\\DTO\\Common\\NamedSearchDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T09:23:07.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EfGetCategoriesQuery.cs",
+              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Implementation\\UseCases\\Queries\\Categories\\EfGetCategoriesQuery.cs",
+              "RelativeDocumentMoniker": "WatchShop.Implementation\\UseCases\\Queries\\Categories\\EfGetCategoriesQuery.cs",
+              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Implementation\\UseCases\\Queries\\Categories\\EfGetCategoriesQuery.cs",
+              "RelativeToolTip": "WatchShop.Implementation\\UseCases\\Queries\\Categories\\EfGetCategoriesQuery.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T09:22:36.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EfGetCountryQuery.cs",
+              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Implementation\\UseCases\\Queries\\Countries\\EfGetCountryQuery.cs",
+              "RelativeDocumentMoniker": "WatchShop.Implementation\\UseCases\\Queries\\Countries\\EfGetCountryQuery.cs",
+              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Implementation\\UseCases\\Queries\\Countries\\EfGetCountryQuery.cs",
+              "RelativeToolTip": "WatchShop.Implementation\\UseCases\\Queries\\Countries\\EfGetCountryQuery.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T09:12:22.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,74 +117,22 @@
               "RelativeDocumentMoniker": "WatchShop.Implementation\\UseCaseHandler.cs",
               "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\WatchShop.Implementation\\UseCaseHandler.cs",
               "RelativeToolTip": "WatchShop.Implementation\\UseCaseHandler.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowAoAAABIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T12:41:55.007Z",
+              "WhenOpened": "2024-06-21T09:11:26.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "watchShopApi\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "watchShopApi\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwCgAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T12:38:51.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\Program.cs",
               "RelativeDocumentMoniker": "watchShopApi\\Program.cs",
               "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\Program.cs",
               "RelativeToolTip": "watchShopApi\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T12:37:27.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\appsettings.json",
-              "RelativeDocumentMoniker": "watchShopApi\\appsettings.json",
-              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\appsettings.json",
-              "RelativeToolTip": "watchShopApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-20T12:35:49.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ISendEmail.cs",
-              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\Core\\ISendEmail.cs",
-              "RelativeDocumentMoniker": "watchShopApi\\Core\\ISendEmail.cs",
-              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\Core\\ISendEmail.cs",
-              "RelativeToolTip": "watchShopApi\\Core\\ISendEmail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T12:18:01.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\Core\\EmailSender.cs",
-              "RelativeDocumentMoniker": "watchShopApi\\Core\\EmailSender.cs",
-              "ToolTip": "D:\\Users\\jandric\\source\\repos\\watchShopApi\\watchShopApi\\Core\\EmailSender.cs",
-              "RelativeToolTip": "watchShopApi\\Core\\EmailSender.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T12:16:09.884Z",
+              "WhenOpened": "2024-06-20T17:16:33.06Z",
               "EditorCaption": ""
             }
           ]

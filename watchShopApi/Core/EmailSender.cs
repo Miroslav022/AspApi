@@ -5,30 +5,21 @@ namespace watchShopApi.Core
 {
     public class EmailSender : ISendEmail
     {
-        private readonly IConfiguration _configuration;
-
-        public EmailSender(IConfiguration configuration)
+        public Task SendEmailAsync(string email, string subject, string message)
         {
-            _configuration = configuration;
-        }
-        public void SendEmail(string to, string subject, string body)
-        {
-            var smtpClient = new SmtpClient(_configuration["Email:SmtpServer"], int.Parse(_configuration["Email:Port"]))
+            var client = new SmtpClient("smtp.gmail.com", 587)
             {
-                Credentials = new NetworkCredential(_configuration["Email:Username"], _configuration["Email:Password"]),
-                EnableSsl = bool.Parse(_configuration["Email:EnableSsl"])
+                EnableSsl = true,
+                UseDefaultCredentials = false,
+                Credentials = new NetworkCredential("asp.net.ict@gmail.com", "Aspnetict02")
             };
 
-            var mailMessage = new MailMessage
-            {
-                From = new MailAddress(""),
-                Subject = subject,
-                Body = body,
-            };
-
-            mailMessage.To.Add(to);
-
-            smtpClient.Send(mailMessage);
+            return client.SendMailAsync(
+                new MailMessage(from: "asp.net.ict@gmail.com",
+                                to: email,
+                                subject,
+                                message
+                                ));
         }
     }
 }

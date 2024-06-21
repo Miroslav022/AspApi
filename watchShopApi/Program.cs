@@ -17,6 +17,15 @@ builder.Configuration.Bind(settings);
 builder.Services.AddSingleton(settings.Jwt);
 
 builder.Services.AddControllers();
+// Add CORS policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder.WithOrigins("http://localhost:4200") // Add your Angular app's URL here
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
+});
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -110,6 +119,18 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+else
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
+// Use CORS policy
+app.UseCors("AllowSpecificOrigin");
 
 app.UseHttpsRedirection();
 

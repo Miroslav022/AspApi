@@ -24,7 +24,6 @@ namespace watchShopApi.Controllers
             _handler = handler;
             _actor = actor;
         }
-        [Authorize]
         [HttpGet]
         public IActionResult Get([FromQuery] BrandSearch search, [FromServices] IGetBrandsQuery query)
             => Ok(_handler.HandleQuery(query, search));

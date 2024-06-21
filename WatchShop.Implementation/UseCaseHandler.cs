@@ -8,7 +8,7 @@ namespace WatchShop.Implementation
     {
         private readonly IApplicationActor _actor;
         private readonly IUseCaseLogger _logger;
-        private static List<int> GloballyAllowed => new List<int> { 1 };
+        private static List<int> GloballyAllowed => new List<int> { 1, 24, 23, 26, 29, 30 };
         public UseCaseHandler(IApplicationActor actor, IUseCaseLogger logger)
         {
             _actor = actor;

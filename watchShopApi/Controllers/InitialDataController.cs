@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using WatchShop.DataAccess;
 using WatchShop.Domain.Entities;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace watchShopApi.Controllers
 {
@@ -104,7 +105,7 @@ namespace watchShopApi.Controllers
                 FirstName = "John",
                 LastName = "Doe",
                 Username = "johndoe",
-                Password = "Projekat123!",
+                Password = BCrypt.Net.BCrypt.HashPassword("Projekat123!"),
                 BirthDate = new DateTime(1990, 5, 15),
                 Location = new Location
                 {
@@ -134,7 +135,7 @@ namespace watchShopApi.Controllers
                 FirstName = "Jane",
                 LastName = "Smith",
                 Username = "janesmith",
-                Password = "Projekat123!",
+                Password = BCrypt.Net.BCrypt.HashPassword("Projekat123!"),
                 BirthDate = new DateTime(1985, 8, 25),
                 Location = new Location
                 {

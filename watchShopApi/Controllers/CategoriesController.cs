@@ -24,7 +24,6 @@ namespace watchShopApi.Controllers
             _useCaseHandler = useCaseHandler;
             _actor = actor;
         }
-        [Authorize]
         [HttpGet]
         public IActionResult Get([FromQuery] KeywordSearchDto search, [FromServices] ICategorySearchQuery query)
             => Ok(_useCaseHandler.HandleQuery(query, search));

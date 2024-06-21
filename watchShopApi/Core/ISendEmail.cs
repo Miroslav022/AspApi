@@ -3,7 +3,7 @@
     public interface ISendEmail
     {
 
-        void SendEmail(string to, string subject, string body);
+        Task SendEmailAsync(string email, string subject, string message);
 
 
     }
