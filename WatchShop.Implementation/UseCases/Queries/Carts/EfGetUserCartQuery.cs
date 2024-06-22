@@ -37,7 +37,7 @@ namespace WatchShop.Implementation.UseCases.Queries.Carts
                     Price = x.ProductPrice.Amount,
                     Name = x.ProductPrice.Product.Name,
                     Quantity = x.Quantity,
-                    BackgroudImage = x.ProductPrice.Product.Images.First(i => i.IsBackground).Image.path
+                    BackgroudImage = x.ProductPrice.Product.Images.Any(x=>x.IsBackground) ? x.ProductPrice.Product.Images.First(x => x.IsBackground).Image.path : "default.png"
                 }).ToList(),
             };
 
